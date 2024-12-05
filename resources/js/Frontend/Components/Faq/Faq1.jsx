@@ -6,7 +6,7 @@ import {useSelector} from "react-redux";
 
 export default function Faq1({faq_data}){
     return(
-        <Div style={{backgroundImage: 'url(/static/left-pattern.png)',backgroundSize:'cover'}}>
+        <Div style={{backgroundImage: 'url(/static/left-pattern.png)',backgroundSize:'cover',backgroundAttachment:'fixed'}}>
             <Div className="container cs-shape_wrap_4">
                 <Div className="cs-shape_4"></Div>
                 <Div className="cs-shape_4"></Div>
