@@ -40,3 +40,41 @@ body,html{
 .cs-shape_wrap_4 .cs-shape_4{
     background-color: #ff4a17 !important;
 }
+
+
+
+// .cs-accordian {
+//     position: relative; 
+//     padding-left: 30px; 
+//     margin-bottom: 10px; 
+//   }
+  
+//   .cs-accordian::before {
+//     content: "";
+//     position: absolute;
+//     left: -55px; 
+//     top: 50%; 
+//     transform: translateY(-50%); 
+//     width: 15px; 
+//     height: 15px; 
+//     background-color: red; 
+//     border-radius: 50%; 
+//   }
+  
+//   .cs-accordian_head {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     cursor: pointer;
+//     padding-right: 10px;
+//   }
+  
+//   .cs-accordian_body {
+//     padding: 10px;
+//     display: none; 
+//   }
+  
+//   .cs-accordian.active .cs-accordian_body {
+//     display: block;
+//   }
+  

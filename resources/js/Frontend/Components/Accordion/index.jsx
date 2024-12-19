@@ -12,7 +12,7 @@ export default function Accordion({faqs}) {
     setSelected(index)
   }
   return (
-    <Div className="cs-accordians cs-style1">
+    <Div className="cs-accordians cs-style1 custom-div">
       {faqs.map((item, index)=>(
         <Div className={`cs-accordian ${selected===index?'active':''}`} key={index}>
           <Div className="cs-accordian_head" onClick={()=>handelToggle(index)}>

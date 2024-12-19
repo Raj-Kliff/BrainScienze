@@ -45,7 +45,7 @@ export default function HeroSection({sections_data}){
         layoutSection = <Hero11 data={sections_data.hero_section} />
     }
 
-    const isHomePage = window.location.pathname === "/";
+    const isHomePage = window.location.pathname === "/" || window.location.pathname === "/home-2";
 
     
     return(

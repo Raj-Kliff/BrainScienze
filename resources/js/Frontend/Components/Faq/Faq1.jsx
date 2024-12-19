@@ -19,7 +19,8 @@ export default function Faq1({faq_data}){
                             />
                             <Spacing lg='90' md='45'/>
                         </Div>
-                        <Div className="col-lg-6 offset-xl-1">
+                        <Div className="col-lg-6 offset-xl-1 d-flex gap-5">
+                            <div style={{border:'2px solid #fff',width: '5rem',height:'100% !important',borderRadius:'25px'}}></div>
                             <Accordion faqs={faq_data.faqs}/>
                         </Div>
                     </Div>
