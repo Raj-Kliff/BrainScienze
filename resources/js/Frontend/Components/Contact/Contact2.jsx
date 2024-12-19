@@ -38,6 +38,9 @@ export default function Contact2({contact_data}){
                                 </li>
                             ) : null }
                         </ul>
+                        <Div className="mt-5">
+                            <img src={'/static/qrcode.PNG'} style={{width:'15rem'}}/>
+                        </Div>
                         <Spacing lg="0" md="50" />
                     </Div>
                     <Div className="col-lg-6">

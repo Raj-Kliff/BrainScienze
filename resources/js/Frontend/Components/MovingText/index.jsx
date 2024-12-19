@@ -9,8 +9,8 @@ export default function MovingText({text, variant}) {
           }`}
       >
       <Div className="cs-moving_text_in">
-        <Div className="cs-moving_text">{text}</Div>
-        <Div className="cs-moving_text">{text}</Div>
+        <Div className="cs-moving_text" style={{color:'#06c17c', WebkitTextStroke: '3px #fff'}}>{text}</Div>
+        <Div className="cs-moving_text" style={{color:'#06c17c', WebkitTextStroke: '3px #fff'}}>{text}</Div>
       </Div>
     </Div>
   )

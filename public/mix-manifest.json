@@ -1,6 +1,6 @@
 {
-    "/js/frontend/app.js": "/js/frontend/app.js?id=5562c0fa1e1df7ffd039b10eaa185ee2",
-    "/js/admin/app.js": "/js/admin/app.js?id=8dcb0410ae85eceeb2afa188e3366bef",
+    "/js/frontend/app.js": "/js/frontend/app.js?id=2f64b0f16cfd8f27c6f93c5af334e742",
+    "/js/admin/app.js": "/js/admin/app.js?id=c9b2f60eb0ce1b7ca0624a66f0b17c28",
     "/css/frontend/globals.css": "/css/frontend/globals.css?id=f5e6019e03dab54eccb8a5c6c8d7dee7",
     "/css/frontend/bootstrap.min.css": "/css/frontend/bootstrap.min.css?id=cc8edb486677fe39b9b12de243590837",
     "/css/admin/all.css": "/css/admin/all.css?id=d69291f4b1c6134b74698479efe9e238",
@@ -157,6 +157,7 @@
     "/static/post_5.jpeg": "/static/post_5.jpeg?id=6527354677a1311f004063c6c8b9a7e1",
     "/static/post_6.jpeg": "/static/post_6.jpeg?id=c48e26768254737913e836ce162d2879",
     "/static/prev_arrow.svg": "/static/prev_arrow.svg?id=3ede5b43c3219bd66d30a074c08db438",
+    "/static/qrcode.PNG": "/static/qrcode.PNG?id=79f9db942dd29840e0f8b917c226682d",
     "/static/rating.svg": "/static/rating.svg?id=5bf3a832d232f20b2e34efcae140921e",
     "/static/recent_post_1.jpeg": "/static/recent_post_1.jpeg?id=14c2eb1f5c6afc9f174cef11022932f7",
     "/static/recent_post_2.jpeg": "/static/recent_post_2.jpeg?id=501c6a27dfad9fef7a9c85e7b234bb7f",
@@ -193,6 +194,7 @@
     "/static/testimonial_1.jpeg": "/static/testimonial_1.jpeg?id=c2ab001141a4e764d8b29718ba0fbe7a",
     "/static/testimonial_2.jpeg": "/static/testimonial_2.jpeg?id=2233105c6b342536cc8f7455d6adf9de",
     "/static/testimonial_3.jpeg": "/static/testimonial_3.jpeg?id=710c073aede66d738854765c100d3e8a",
+    "/static/video.mp4": "/static/video.mp4?id=030c5503a6e1eb6844e931cc1880e604",
     "/static/video_bg.jpeg": "/static/video_bg.jpeg?id=70288248a9232625858229161a518b4c",
     "/static/video_bg_2.jpeg": "/static/video_bg_2.jpeg?id=965fe6fd77cbc20ae7d72d9f5b731a6d",
     "/static/wedding.jpeg": "/static/wedding.jpeg?id=71b662bb3c223086624ad12def301036"

@@ -44,8 +44,45 @@ export default function HeroSection({sections_data}){
     } else if(heroSectionLayout === "11"){
         layoutSection = <Hero11 data={sections_data.hero_section} />
     }
+
+    const isHomePage = window.location.pathname === "/";
+
+    
     return(
         <>
+        {
+            isHomePage && (
+                <div style={{ position: 'relative', width: '100%', height: 'auto' }}>
+                    <video 
+                        style={{ width: '100%', height: 'auto' }} 
+                        autoPlay 
+                        loop 
+                        muted
+                    >
+                        <source src="/static/video.mp4" type="video/mp4" />
+                    </video>
+                    <div 
+                        style={{
+                        position: 'absolute', 
+                        top: 0, 
+                        left: 0, 
+                        width: '100%', 
+                        height: '100%', 
+                        backgroundColor: 'rgba(22, 22, 22, 0.5)',
+                        color: 'white',
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        textAlign: 'center',
+                        zIndex: 10,
+                        }}
+                    >
+                        {/* <h2 style={{ margin: 0, padding: 0 }}>Welcome to the Video</h2>
+                        <p style={{ margin: 0, padding: 0 }}>Enjoy the experience!</p> */}
+                    </div>
+                </div>
+            )
+        }
             {layoutSection}
         </>
     )

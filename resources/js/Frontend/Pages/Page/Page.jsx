@@ -85,6 +85,7 @@ export default function FaqPage() {
             dispatch(updatePageMetaImage(page?.meta_image))
         }
     }, [page])
+
     return (
         <FrontendLayout>
             <Head>
